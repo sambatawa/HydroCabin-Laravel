@@ -1516,9 +1516,21 @@
                     </h2>                    
                     <p>Our system helps monitor hydroponic environments easily and efficiently.</p>
                     <div class="feature-system-content">
-                        <div></div>
-                        <div></div>
-                        <div></div>
+                        <div style="background: linear-gradient(135deg, rgba(255,255,255,0.1) 0%, rgba(255,255,255,0.05) 100%); padding: 30px; display: flex; flex-direction: column; align-items: center; text-align: center;">
+                            <i class="fas fa-microchip" style="font-size: 48px; color: #fff; margin-bottom: 20px;"></i>
+                            <h3 style="color: #fff; font-size: 22px; font-weight: 600; margin-bottom: 15px;">1. Sensor Collection</h3>
+                            <p style="color: rgba(255,255,255,0.8); font-size: 16px; line-height: 1.6;">ESP8266 microcontroller continuously reads data from BME280 sensor, measuring temperature, humidity, and atmospheric pressure in real-time.</p>
+                        </div>
+                        <div style="background: linear-gradient(135deg, rgba(255,255,255,0.1) 0%, rgba(255,255,255,0.05) 100%); padding: 30px; display: flex; flex-direction: column; align-items: center; text-align: center;">
+                            <i class="fas fa-cloud-upload-alt" style="font-size: 48px; color: #fff; margin-bottom: 20px;"></i>
+                            <h3 style="color: #fff; font-size: 22px; font-weight: 600; margin-bottom: 15px;">2. Data Processing</h3>
+                            <p style="color: rgba(255,255,255,0.8); font-size: 16px; line-height: 1.6;">Collected data is transmitted to Firebase Realtime Database for instant storage and processing, ensuring seamless data synchronization.</p>
+                        </div>
+                        <div style="background: linear-gradient(135deg, rgba(255,255,255,0.1) 0%, rgba(255,255,255,0.05) 100%); padding: 30px; display: flex; flex-direction: column; align-items: center; text-align: center;">
+                            <i class="fas fa-bell" style="font-size: 48px; color: #fff; margin-bottom: 20px;"></i>
+                            <h3 style="color: #fff; font-size: 22px; font-weight: 600; margin-bottom: 15px;">3. Alert System</h3>
+                            <p style="color: rgba(255,255,255,0.8); font-size: 16px; line-height: 1.6;">Laravel backend monitors threshold values and automatically sends Telegram notifications when conditions exceed optimal ranges.</p>
+                        </div>
                     </div>
                 </div>
 
